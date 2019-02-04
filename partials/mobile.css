@@ -1,0 +1,85 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #fff; }
+  body #body {
+    width: 100%;
+    height: 100%; }
+    body #body header {
+      width: 100%;
+      height: 60px;
+      background-color: #E50000;
+      box-shadow: 0px 2px 5px #888888; }
+      body #body header h1 {
+        font: italic 600 30px 'Oswald';
+        text-align: center;
+        padding-top: 5px;
+        color: #fff; }
+      body #body header #hamburgerButton {
+        width: 30px;
+        height: 18px;
+        float: right;
+        margin: -29px 21px 0 0; }
+        body #body header #hamburgerButton #firstLine, body #body header #hamburgerButton #secondLine, body #body header #hamburgerButton #thirdLine {
+          width: 30px;
+          height: 4px;
+          background-color: #fff;
+          transition: 0.3s;
+          position: relative; }
+        body #body header #hamburgerButton #firstLine {
+          top: 0; }
+        body #body header #hamburgerButton #secondLine {
+          top: 3px; }
+        body #body header #hamburgerButton #thirdLine {
+          top: 6px; }
+        body #body header #hamburgerButton .change1 {
+          top: 6px !important;
+          transform: rotate(45deg); }
+        body #body header #hamburgerButton .change2 {
+          top: 3px !important;
+          transform: rotate(-45deg); }
+    body #body #nav {
+      width: 80%;
+      height: 124px;
+      background-color: #EDEDED;
+      transform: skew(-45deg);
+      margin-left: -100%;
+      box-shadow: 5px 5px 18px #888888;
+      transition: 1s; }
+      body #body #nav a {
+        text-decoration: none;
+        font: italic 500 20px 'Oswald';
+        color: #000;
+        border-bottom: 1px solid #000;
+        display: block;
+        transform: skew(45deg);
+        margin-left: 45%;
+        width: 50%; }
+      body #body #nav a:hover {
+        color: #fff; }
+    body #body #homeSection {
+      width: 100%;
+      margin-top: -124px;
+      transition: 1s; }
+      body #body #homeSection .movie {
+        width: 90%;
+        height: 100px;
+        padding: 10px 5% 10px 5%;
+        border-bottom: 1px solid #C0C0C0; }
+        body #body #homeSection .movie #movImg {
+          height: 90px;
+          margin-top: 5px;
+          float: left; }
+        body #body #homeSection .movie #movInfo {
+          float: left;
+          margin: 2px 0 0 5px; }
+          body #body #homeSection .movie #movInfo h3 {
+            font: italic 600 20px 'Oswald';
+            color: #000; }
+          body #body #homeSection .movie #movInfo p {
+            font: 200 12px 'Oswald';
+            color: #C0C0C0; }
+  body #test {
+    display: none; }
+
+/*# sourceMappingURL=mobile.css.map */
