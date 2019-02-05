@@ -7,6 +7,7 @@ function hamburger() {
 	var line3 = document.getElementById("thirdLine").style.top;
 	var navWidth = document.getElementById("nav").style.marginLeft;
 	var homeSection = document.getElementById("homeSection").style.marginTop;
+	var content = document.getElementById("content").style.marginTop;
 
 	if (line2 == "none") {
 		document.getElementById("firstLine").classList.remove("change1");
@@ -29,5 +30,11 @@ function hamburger() {
 		document.getElementById("homeSection").style.marginTop = "-124px";
 	} else	{
 		document.getElementById("homeSection").style.marginTop = "0px";
+	}
+
+	if (content == "0px") {
+		document.getElementById("content").style.marginTop = "-124px";
+	} else	{
+		document.getElementById("content").style.marginTop = "0px";
 	}
 }
