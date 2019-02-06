@@ -15,7 +15,7 @@ body {
       box-shadow: 0px 2px 5px #888888; }
       body #body header #marvelLogo {
         width: 50px;
-        background-color: #E50000;
+        background-color: #ED1D24;
         font: 600 15px 'Oswald';
         float: left;
         color: #fff;
@@ -83,17 +83,17 @@ body {
         margin: 10px 5% 0 5%;
         padding-bottom: 10px;
         border-bottom: 1px solid #C0C0C0; }
-        body #body #homeSection .movie #movImg {
+        body #body #homeSection .movie .movImg {
           height: 90px;
           margin-top: 5px;
           float: left; }
-        body #body #homeSection .movie #movInfo {
+        body #body #homeSection .movie .movInfo {
           float: left;
           margin: 2px 0 0 5px; }
-          body #body #homeSection .movie #movInfo h3 {
+          body #body #homeSection .movie .movInfo h3 {
             font: italic 600 20px 'Oswald';
             color: #000; }
-          body #body #homeSection .movie #movInfo p {
+          body #body #homeSection .movie .movInfo p {
             font: 200 12px 'Oswald';
             color: #C0C0C0; }
     body #body #content {
@@ -109,7 +109,7 @@ body {
           border-bottom: 1px solid #C0C0C0;
           margin: 10px 5%;
           padding-bottom: 10px; }
-          body #body #content #nowInCinema .movie #movImg, body #body #content #soonInCinema .movie #movImg {
+          body #body #content #nowInCinema .movie .movImg, body #body #content #soonInCinema .movie .movImg {
             width: 60%; }
           body #body #content #nowInCinema .movie h3, body #body #content #soonInCinema .movie h3 {
             font: italic 600 30px 'Oswald';
@@ -117,15 +117,36 @@ body {
           body #body #content #nowInCinema .movie p, body #body #content #soonInCinema .movie p {
             font: 200 18px 'Oswald';
             color: #C0C0C0; }
-          body #body #content #nowInCinema .movie #plot, body #body #content #soonInCinema .movie #plot {
+          body #body #content #nowInCinema .movie .plot, body #body #content #soonInCinema .movie .plot {
             font: 600 15px 'Oswald';
             color: #000; }
-          body #body #content #nowInCinema .movie #imbd, body #body #content #soonInCinema .movie #imbd {
+          body #body #content #nowInCinema .movie .imbd, body #body #content #soonInCinema .movie .imbd {
             width: 20%;
             margin-top: 10px; }
-      body #body #content #soonInCinema #relDt {
+      body #body #content #soonInCinema .relDt {
         font: 600 20px 'Oswald';
         color: #E50000; }
+      body #body #content #marvelUniverse {
+        width: 100%; }
+        body #body #content #marvelUniverse .movie {
+          width: 90%;
+          height: 80px;
+          margin: 10px 5% 0 5%;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #C0C0C0; }
+          body #body #content #marvelUniverse .movie .movInfo {
+            float: left;
+            margin-top: 5px;
+            width: 80%; }
+            body #body #content #marvelUniverse .movie .movInfo h3 {
+              font: italic 600 20px 'Oswald';
+              color: #000; }
+            body #body #content #marvelUniverse .movie .movInfo .imbd {
+              height: 15px; }
+          body #body #content #marvelUniverse .movie .movImg {
+            height: 70px;
+            margin: 5px 5px 0 0;
+            float: right; }
   body #test {
     display: none; }
 
