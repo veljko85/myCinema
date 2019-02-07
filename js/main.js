@@ -37,5 +37,5 @@ function hamburger() {
 	} else	{
 		document.getElementById("content").style.marginTop = "0px";
 	}
-}
 
+}
