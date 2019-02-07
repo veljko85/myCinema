@@ -13,25 +13,28 @@ body {
       background-color: #E50000;
       box-shadow: 0px 2px 5px #888888; }
       body #body header #marvelLogo {
-        width: 50px;
+        width: 40px;
         background-color: #ED1D24;
         font: 600 15px 'Oswald';
         float: left;
         color: #fff;
         text-align: center;
-        border: 3px solid #000;
+        border: 1px solid #fff;
         transform: rotate(-45deg);
         letter-spacing: -1px;
-        margin: 15px 0 0 30%; }
+        margin: 15px 0 0 30%;
+        box-shadow: 0px 2px 5px #000; }
       body #body header h1 {
         font: italic 600 30px 'Oswald';
         padding-top: 5px;
-        color: #fff; }
+        color: #fff;
+        float: left;
+        margin-left: -15px; }
       body #body header #hamburgerButton {
         width: 30px;
         height: 18px;
         float: right;
-        margin: -29px 21px 0 0; }
+        margin: 21px 21px 0 0; }
         body #body header #hamburgerButton #firstLine, body #body header #hamburgerButton #secondLine, body #body header #hamburgerButton #thirdLine {
           width: 30px;
           height: 4px;
@@ -75,7 +78,7 @@ body {
       width: 100%;
       margin-top: -124px;
       transition: 1s;
-      /*	display: none;                       /*display none*/ }
+      /*		display: none;                       /*display none*/ }
       body #body #homeSection .movie {
         width: 90%;
         height: 100px;
@@ -156,10 +159,27 @@ body {
           padding: 10px 0;
           margin: 0 5%; }
         body #body #content #trailers iframe {
-          width: 100%; }
+          width: 100%;
+          height: 200px; }
         body #body #content #trailers h3 {
           font: italic 600 20px 'Oswald';
           color: #000; }
+    body #body #getTickets {
+      width: 100%;
+      display: none; }
+      body #body #getTickets h1 {
+        font: italic 600 20px 'Oswald'; }
+      body #body #getTickets h2 {
+        font: italic 600 20px 'Oswald';
+        text-align: center; }
+      body #body #getTickets .expSeat {
+        width: 25px; }
+      body #body #getTickets #seats {
+        text-align: center;
+        margin: 0 auto;
+        width: 250px; }
+        body #body #getTickets #seats .seat {
+          width: 25px; }
   body #test {
     display: none; }
 
