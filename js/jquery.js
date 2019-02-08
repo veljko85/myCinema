@@ -6,7 +6,8 @@ $(document).ready(function(){
 		$("#content").css({"margin-top": "-124px"});
 		$("#firstLine").removeClass("change1");
 		$("#secondLine").show();
-		$("#thirdLine").removeClass("change2");		
+		$("#thirdLine").removeClass("change2");	
+		$("#getTickets").show();	
 		$("#content").load($(this).attr("href"));
         	return(false);
 	});
