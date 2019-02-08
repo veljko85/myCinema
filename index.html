@@ -9,7 +9,7 @@
 			<link rel="stylesheet" type="text/css" href="scss/style.css">
 		</head>
 		
-		<body>
+		<body onload="reservedSeats();">
 			<div id="body">
 				<header>
 					<a href="index.html">
@@ -124,10 +124,18 @@
 				<section id="getTickets">
 					<h1>Theater 1</h1>
 					
-
-					<img src="img/seat.png" class="expSeat"><p>Not Avaible Seat</p>
-					<img src="img/seat.png" class="expSeat"><p>Avaible Seat</p>
-					<img src="img/seat.png" class="expSeat"><p>Your seat/s</p>
+					<div class="expSeat">
+						<img src="img/seat.png">
+						<p>Avaible Seat</p>
+					</div>
+					<div class="expSeat">
+						<img src="img/seatTaken.png">
+						<p>Not Avaible Seat</p>
+					</div>
+					<div class="expSeat">
+						<img src="img/seatYour.png">
+						<p>Your seat/s</p>
+					</div>
 
 					<h2>Choose your seat/s</h2>
 					<div id="seats">
@@ -151,58 +159,57 @@
 						<img src="img/seat.png" class="seat" id="18" onclick="takeSeat(this.id);">
 						<img src="img/seat.png" class="seat" id="19" onclick="takeSeat(this.id);">
 						<img src="img/seat.png" class="seat" id="20" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="1" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="2" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="3" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="4" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="5" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="6" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="7" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="8" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="9" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="10" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="11" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="12" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="13" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="14" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="15" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="16" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="17" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="18" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="19" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="20" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="1" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="2" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="3" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="4" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="5" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="6" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="7" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="8" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="9" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="10" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="11" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="12" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="13" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="14" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="15" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="16" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="17" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="18" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="19" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="20" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="1" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="2" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="3" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="4" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="5" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="6" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="7" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="8" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="9" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="10" onclick="takeSeat(this.id);">
-						<img src="img/seat.png" class="seat" id="11" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="21" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="22" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="23" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="24" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="25" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="26" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="27" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="28" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="29" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="30" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="31" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="32" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="33" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="34" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="35" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="36" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="37" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="38" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="39" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="40" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="41" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="42" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="43" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="44" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="45" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="46" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="47" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="48" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="49" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="50" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="51" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="52" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="53" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="54" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="55" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="56" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="57" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="58" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="59" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="60" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="61" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="62" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="63" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="64" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="65" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="66" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="67" onclick="takeSeat(this.id);">
+						<img src="img/seat.png" class="seat" id="68" onclick="takeSeat(this.id);">
 					</div>
+
+					<h1 id="yourSeats"></h1>
 					
 				</section>
 
@@ -220,7 +227,7 @@
 
 
 
-		<p id="test">test</p>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="js/main.js"></script> 
 		<script src="js/jquery.js"></script> 		
