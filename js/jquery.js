@@ -7,7 +7,7 @@ $(document).ready(function(){
 		$("#firstLine").removeClass("change1");
 		$("#secondLine").show();
 		$("#thirdLine").removeClass("change2");	
-		$("#getTickets").show();	
+		$("#getTickets").hide();	
 		$("#content").load($(this).attr("href"));
         	return(false);
 	});
