@@ -166,18 +166,27 @@ body {
           color: #000; }
     body #body #getTickets {
       width: 100%;
-      display: none; }
+      display: none;
+      /*dispal none*/ }
       body #body #getTickets h1 {
         font: italic 600 20px 'Oswald'; }
       body #body #getTickets h2 {
         font: italic 600 20px 'Oswald';
         text-align: center; }
       body #body #getTickets .expSeat {
-        width: 25px; }
+        width: 50%;
+        height: 40px; }
+        body #body #getTickets .expSeat p {
+          font: 15px 'Oswald';
+          float: left;
+          margin: 9px 0 0 5px; }
+        body #body #getTickets .expSeat img {
+          width: 25px;
+          float: left; }
       body #body #getTickets #seats {
         text-align: center;
         margin: 0 auto;
-        width: 250px; }
+        width: 300px; }
         body #body #getTickets #seats .seat {
           width: 25px; }
   body #test {

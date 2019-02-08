@@ -235,21 +235,33 @@ body  {
 		}
 		#getTickets	{
 			width: 100%;
-			display: none;
+			display: none;											/*dispal none*/
 			h1	{
 				font: italic 600 20px 'Oswald';
 			}
 			h2	{
 				font: italic 600 20px 'Oswald';
 				text-align: center;
+				
 			}
 			.expSeat	{
-				width: 25px;
+				width: 50%;
+				height: 40px;
+				p  {
+					font: 15px 'Oswald';
+					float: left;
+					margin: 9px 0 0 5px;
+
+				}
+				img  {
+					width: 25px;
+					float: left;
+				}
 			}
 			#seats	{
 				text-align: center;
 				margin: 0 auto;
-				width: 250px;
+				width: 300px;
 				.seat	{
 					width: 25px;
 				}
