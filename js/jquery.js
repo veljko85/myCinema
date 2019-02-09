@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	if (document.body.clientWidth < 990) {	
+if (document.body.clientWidth < 990) {
 		$("#nav a").click( function() {
 			$("#homeSection").hide();
 			$("#nav").css({"margin-left": "-100%"});
@@ -12,13 +12,14 @@ $(document).ready(function(){
 			$("#content").load($(this).attr("href"));
 	        	return(false);
 		});
-	} else {
-		$("#nav a").click( function() {
+} else	{
+	$("#nav a").click( function() {
 			$("#homeSection").hide();
 			$("#getTickets").hide();	
 			$("#content").load($(this).attr("href"));
 	        	return(false);
 	});
+}
 		$(".movie").click(function(){
 			$(".movie").hide();
 			$(this).show();
