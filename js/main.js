@@ -52,7 +52,7 @@ function reservedSeats(){
 	var seat = document.getElementById("1").id;		//seat client clicked on
 	
 	//random choice of reserved seats
-	for (i = 0; i <= 68; i++) {
+	for (i = 0; i <= 58; i++) {
     	seats[i] = Math.floor(Math.random() * 2);
 	}
 			
