@@ -72,13 +72,11 @@ body {
         width: 50%; }
       body #body #nav a:last-child {
         border-bottom: none; }
-      body #body #nav a:hover {
-        color: #fff; }
     body #body #homeSection {
       width: 100%;
       margin-top: -124px;
       transition: 1s;
-      /*		display: none;                       /*display none*/ }
+      /*	display: none;                       /*display none*/ }
       body #body #homeSection .movie {
         width: 90%;
         height: 100px;
@@ -104,7 +102,6 @@ body {
       transition: 1s; }
       body #body #content #nowInCinema, body #body #content #soonInCinema {
         width: 100%;
-        height: 300px;
         text-align: center; }
         body #body #content #nowInCinema .movie, body #body #content #soonInCinema .movie {
           width: 90%;
@@ -126,8 +123,8 @@ body {
             width: 20%;
             margin-top: 10px; }
       body #body #content #soonInCinema .relDt {
-        font: 600 20px 'Oswald';
-        color: #E50000; }
+        font: 600 20px 'Oswald' !important;
+        color: #E50000 !important; }
       body #body #content #marvelUniverse {
         width: 100%; }
         body #body #content #marvelUniverse .movie {

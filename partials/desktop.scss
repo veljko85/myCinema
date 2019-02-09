@@ -1,0 +1,178 @@
+@media screen and (min-width: 990px) {
+	body  {
+	background: url("../img/marvelBackground.jpg") no-repeat fixed center;;
+	-webkit-background-size: cover;
+	background-color: #fff;
+		#body {
+			width: 990px;
+			height: 100vh;
+			margin: 0 auto;
+		
+			header	{
+				height: 120px;
+				box-shadow: 0px 2px 5px #888888;
+
+				#marvelLogo	{
+					width: 90px;
+					font: 600 30px 'Oswald'; 
+					border: 2px solid #fff;
+					margin: 30px 0 0 40%;
+				}
+
+				h1	{
+					font: italic 600 60px 'Oswald';
+					padding-top: 10px;
+					margin-left: -30px;
+				}
+
+				#hamburgerButton	{
+					display: none;
+				}
+			}
+
+			#nav	{
+				width: 70%;
+				height: 40px;
+				margin-left: -20px;
+				
+				a  {
+					float: left;
+					font: italic 700 20px 'Oswald'; 
+					border-bottom: none;
+					margin: 5px 0;
+					width: 25%;
+					text-align: center;
+				}
+				a:hover	{
+					color: #E50000;
+				}
+			}
+																	/*HOME SECTION*/
+			#homeSection	{
+				margin-top: -20px;
+				background-color: #fff;
+				box-shadow: 0px 2px 5px #888888;
+		/*		display: none;                       /*display none*/
+
+				.movie	{
+					height: 150px;
+					margin: 20px 5% 0 5%;
+					padding-bottom: 20px;
+
+					.movImg	{
+						height: 140px;
+					}
+
+					.movInfo  {
+						margin: 5px 0 0 5px;
+					
+						h3	{
+							font: italic 600 30px 'Oswald';
+						}
+
+						p  {
+							font: 200 18px 'Oswald';
+						}
+					}
+				}
+			}
+			
+																	/*Now in cinema*/
+			#content	{
+				margin-top: -20px;
+				background-color: #fff;
+				box-shadow: 0px 2px 5px #888888;
+
+				#nowInCinema, #soonInCinema	{
+
+					.movie	{
+						padding: 10px 0;
+
+						.movImg	{
+							width: 30%;
+						}
+
+						.imbd	{
+							width: 7%;
+							margin-top: 10px;
+						}
+					}
+				}
+				#soonInCinema	{
+					.relDt	{
+						font: 600 30px 'Oswald' !important;
+					}
+				}
+				#marvelUniverse	{
+
+					.movie	{
+						height: 120px;
+						
+						.movInfo	{
+							margin-top: 20px;
+							
+							h3	{
+								font: italic 600 26.7px 'Oswald';
+							}
+
+							.imbd	{
+								height: 22.5px;
+							}
+						}
+						.movImg	{
+							height: 110px;
+						}
+					}	
+				}
+				#trailers	{
+					margin-top: 20px;
+					
+					.movie	{
+						width: 60%;
+						padding: 20px 0;
+						margin: 0 20%;
+					}	
+						iframe	{
+							height: 370px;
+						}
+						h3	{
+							font: italic 600 30px 'Oswald';
+						}
+				}
+			}
+			#getTickets	{
+				background-color: #fff;
+				box-shadow: 0px 2px 5px #888888;
+				padding-bottom: 30%;
+				display: none;											/*dispal none*/
+				h1	{
+					font: italic 600 30px 'Oswald';
+				}
+				h2	{
+					font: italic 600 30px 'Oswald';
+					margin-top: 80px;
+					
+				}
+				.expSeat	{
+					width: 25%;
+					height: 60px;
+					float: left;
+					p  {
+						font: 22.5px 'Oswald';
+						margin: 13px 0 0 5px;
+
+					}
+					img  {
+						width: 37.5px;
+					}
+				}
+				#seats	{
+					width: 450px;
+					.seat	{
+						width: 37.5px;
+					}
+				}
+			}
+		}
+	}
+}

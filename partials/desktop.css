@@ -1,3 +1,114 @@
-
+@media screen and (min-width: 990px) {
+  body {
+    background: url("../img/marvelBackground.jpg") no-repeat fixed center;
+    -webkit-background-size: cover;
+    background-color: #fff; }
+    body #body {
+      width: 990px;
+      height: 100vh;
+      margin: 0 auto;
+      /*HOME SECTION*/
+      /*Now in cinema*/ }
+      body #body header {
+        height: 120px;
+        box-shadow: 0px 2px 5px #888888; }
+        body #body header #marvelLogo {
+          width: 90px;
+          font: 600 30px 'Oswald';
+          border: 2px solid #fff;
+          margin: 30px 0 0 40%; }
+        body #body header h1 {
+          font: italic 600 60px 'Oswald';
+          padding-top: 10px;
+          margin-left: -30px; }
+        body #body header #hamburgerButton {
+          display: none; }
+      body #body #nav {
+        width: 70%;
+        height: 40px;
+        margin-left: -20px; }
+        body #body #nav a {
+          float: left;
+          font: italic 700 20px 'Oswald';
+          border-bottom: none;
+          margin: 5px 0;
+          width: 25%;
+          text-align: center; }
+        body #body #nav a:hover {
+          color: #E50000; }
+      body #body #homeSection {
+        margin-top: -20px;
+        background-color: #fff;
+        box-shadow: 0px 2px 5px #888888;
+        /*		display: none;                       /*display none*/ }
+        body #body #homeSection .movie {
+          height: 150px;
+          margin: 20px 5% 0 5%;
+          padding-bottom: 20px; }
+          body #body #homeSection .movie .movImg {
+            height: 140px; }
+          body #body #homeSection .movie .movInfo {
+            margin: 5px 0 0 5px; }
+            body #body #homeSection .movie .movInfo h3 {
+              font: italic 600 30px 'Oswald'; }
+            body #body #homeSection .movie .movInfo p {
+              font: 200 18px 'Oswald'; }
+      body #body #content {
+        margin-top: -20px;
+        background-color: #fff;
+        box-shadow: 0px 2px 5px #888888; }
+        body #body #content #nowInCinema .movie, body #body #content #soonInCinema .movie {
+          padding: 10px 0; }
+          body #body #content #nowInCinema .movie .movImg, body #body #content #soonInCinema .movie .movImg {
+            width: 30%; }
+          body #body #content #nowInCinema .movie .imbd, body #body #content #soonInCinema .movie .imbd {
+            width: 7%;
+            margin-top: 10px; }
+        body #body #content #soonInCinema .relDt {
+          font: 600 30px 'Oswald' !important; }
+        body #body #content #marvelUniverse .movie {
+          height: 120px; }
+          body #body #content #marvelUniverse .movie .movInfo {
+            margin-top: 20px; }
+            body #body #content #marvelUniverse .movie .movInfo h3 {
+              font: italic 600 26.7px 'Oswald'; }
+            body #body #content #marvelUniverse .movie .movInfo .imbd {
+              height: 22.5px; }
+          body #body #content #marvelUniverse .movie .movImg {
+            height: 110px; }
+        body #body #content #trailers {
+          margin-top: 20px; }
+          body #body #content #trailers .movie {
+            width: 60%;
+            padding: 20px 0;
+            margin: 0 20%; }
+          body #body #content #trailers iframe {
+            height: 370px; }
+          body #body #content #trailers h3 {
+            font: italic 600 30px 'Oswald'; }
+      body #body #getTickets {
+        background-color: #fff;
+        box-shadow: 0px 2px 5px #888888;
+        padding-bottom: 30%;
+        display: none;
+        /*dispal none*/ }
+        body #body #getTickets h1 {
+          font: italic 600 30px 'Oswald'; }
+        body #body #getTickets h2 {
+          font: italic 600 30px 'Oswald';
+          margin-top: 80px; }
+        body #body #getTickets .expSeat {
+          width: 25%;
+          height: 60px;
+          float: left; }
+          body #body #getTickets .expSeat p {
+            font: 22.5px 'Oswald';
+            margin: 13px 0 0 5px; }
+          body #body #getTickets .expSeat img {
+            width: 37.5px; }
+        body #body #getTickets #seats {
+          width: 450px; }
+          body #body #getTickets #seats .seat {
+            width: 37.5px; } }
 
 /*# sourceMappingURL=desktop.css.map */

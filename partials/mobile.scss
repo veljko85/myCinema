@@ -93,16 +93,13 @@ body  {
 			a:last-child  {
 				border-bottom: none;
 			}
-			a:hover	{
-				color: #fff;
-			}
 		}
 																/*HOME SECTION*/
 		#homeSection	{
 			width: 100%;
 			margin-top: -124px;
 			transition: 1s;
-	/*		display: none;                       /*display none*/
+		/*	display: none;                       /*display none*/
 
 			.movie	{
 				width: 90%;
@@ -143,7 +140,6 @@ body  {
 
 			#nowInCinema, #soonInCinema	{
 				width: 100%;
-				height: 300px;
 				text-align: center;
 
 				.movie	{
@@ -179,8 +175,8 @@ body  {
 			}
 			#soonInCinema	{
 				.relDt	{
-					font: 600 20px 'Oswald';
-					color: #E50000;
+					font: 600 20px 'Oswald' !important;
+					color: #E50000 !important;
 				}
 			}
 			#marvelUniverse	{

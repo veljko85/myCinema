@@ -1,0 +1,135 @@
+@media screen and (min-width: 768px) {
+	body  {
+		
+		#body {
+		
+			header	{
+
+				#marvelLogo	{
+					margin: 15px 0 0 40%;
+				}
+			}
+
+			#nav	{
+				width: 60%;
+			}
+																	/*HOME SECTION*/
+			#homeSection	{
+		/*		display: none;                       /*display none*/
+
+				.movie	{
+					height: 150px;
+					
+					.movImg	{
+						height: 140px;
+					}
+
+					.movInfo  {
+						margin: 5px 0 0 5px;
+					
+						h3	{
+							font: italic 600 30px 'Oswald';
+						}
+
+						p  {
+							font: 200 18px 'Oswald';
+						}
+					}
+				}
+			}
+			
+																	/*Now in cinema*/
+			#content	{
+
+				#nowInCinema, #soonInCinema	{
+
+					.movie	{
+						margin: 20px 5%;
+
+						h3	{
+							font: italic 600 40px 'Oswald';
+						}
+
+						p  {
+							font: 200 24px 'Oswald';
+						}
+
+						.plot	{
+							font: 600 20px 'Oswald';
+						}
+					}
+				}
+				#soonInCinema	{
+					.relDt	{
+						font: 600 30px 'Oswald' !important;
+						color: #E50000 !important;
+					}
+				}
+				#marvelUniverse	{
+
+					.movie	{
+						height: 120px;
+						
+						.movInfo	{
+							margin-top: 20px;
+							
+							h3	{
+								font: italic 600 26.7px 'Oswald';
+							}
+
+							.imbd	{
+								height: 22.5px;
+							}
+						}
+						.movImg	{
+							height: 110px;
+						}
+					}	
+				}
+				#trailers	{
+					margin-top: 20px;
+					
+					.movie	{
+						width: 80%;
+						padding: 20px 0;
+						margin: 0 10%;
+					}	
+						iframe	{
+							height: 370px;
+						}
+						h3	{
+							font: italic 600 30px 'Oswald';
+						}
+				}
+
+			}
+			#getTickets	{
+		/*		display: none;											/*dispal none*/
+				h1	{
+					font: italic 600 30px 'Oswald';
+				}
+				h2	{
+					font: italic 600 30px 'Oswald';
+					
+				}
+				.expSeat	{
+					height: 60px;
+					p  {
+						font: 22.5px 'Oswald';
+						margin: 13px 0 0 5px;
+
+					}
+					img  {
+						width: 37.5px;
+					}
+				}
+				#seats	{
+					width: 450px;
+					.seat	{
+						width: 37.5px;
+					}
+				}
+			}
+		}
+	}
+}	
