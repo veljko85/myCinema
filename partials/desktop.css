@@ -110,6 +110,9 @@
         body #body #getTickets #seats {
           width: 450px; }
           body #body #getTickets #seats .seat {
-            width: 37.5px; } }
+            width: 37.5px; }
+      body #body #bottom {
+        height: 180px;
+        margin-top: 30px; } }
 
 /*# sourceMappingURL=desktop.css.map */
