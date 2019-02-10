@@ -163,6 +163,7 @@ body {
           color: #000; }
     body #body #getTickets {
       width: 100%;
+      padding-bottom: 30%;
       display: none;
       /*dispal none*/ }
       body #body #getTickets h1 {
