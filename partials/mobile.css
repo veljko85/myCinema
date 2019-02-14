@@ -61,8 +61,7 @@ body {
       margin-left: -100%;
       margin-top: -5px;
       box-shadow: 5px 5px 18px #888888;
-      transition: 1s;
-      visibility: hidden; }
+      transition: 1s; }
       body #body #nav a {
         font: italic 500 20px 'Oswald';
         color: #000;

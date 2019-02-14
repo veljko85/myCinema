@@ -2,8 +2,6 @@
 
 function hamburger() {
 
-	document.getElementById("nav").style.visibility = "visible";
-
 	var line2 = document.getElementById("secondLine").style.display;
 
 	var navWidth = document.getElementById("nav").style.marginLeft;
@@ -39,6 +37,10 @@ function hamburger() {
 		document.getElementById("content").style.marginTop = "-124px";
 	} else	{
 		document.getElementById("content").style.marginTop = "0px";
+	}
+
+	if (document.body.clientWidth < 990) {
+	document.getElementById("nav").style.visibility = "visible";
 	}
 
 }
