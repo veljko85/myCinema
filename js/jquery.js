@@ -1,8 +1,6 @@
 $(document).ready(function(){
 	
 if (document.body.clientWidth < 990) {
-		$("#nav").css({"visibility": "hidden"});
-
 		$("#nav a").click( function() {
 			$("#homeSection").hide();
 			$("#nav").css({"margin-left": "-100%"});
