@@ -2,6 +2,8 @@
 
 function hamburger() {
 
+	document.getElementById("nav").style.visibility = "visible";
+
 	var line2 = document.getElementById("secondLine").style.display;
 
 	var navWidth = document.getElementById("nav").style.marginLeft;
