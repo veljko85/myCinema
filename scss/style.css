@@ -62,7 +62,8 @@ body {
       margin-left: -100%;
       margin-top: -5px;
       box-shadow: 5px 5px 18px #888888;
-      transition: 1s; }
+      transition: 1s;
+      visibility: hidden; }
       body #body #nav a {
         font: italic 500 20px 'Oswald';
         color: #000;
@@ -323,7 +324,8 @@ body {
       body #body #nav {
         width: 70%;
         height: 40px;
-        margin-left: -20px; }
+        margin-left: -20px;
+        visibility: visible; }
         body #body #nav a {
           float: left;
           font: italic 700 20px 'Oswald';
@@ -389,18 +391,20 @@ body {
         background-color: #fff;
         box-shadow: 0px 2px 5px #888888;
         padding-bottom: 30%;
-        margin-top: -124px;
+        margin-top: 0;
         display: none;
         /*dispal none*/ }
         body #body #getTickets h1 {
-          font: italic 600 30px 'Oswald'; }
+          font: italic 600 30px 'Oswald';
+          margin-left: 5%; }
         body #body #getTickets h2 {
           font: italic 600 30px 'Oswald';
           margin-top: 80px; }
         body #body #getTickets .expSeat {
           width: 25%;
           height: 60px;
-          float: left; }
+          float: left;
+          margin-left: 5%; }
           body #body #getTickets .expSeat p {
             font: 22.5px 'Oswald';
             margin: 13px 0 0 5px; }

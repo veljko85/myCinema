@@ -1,6 +1,6 @@
 @media screen and (min-width: 990px) {
 	body  {
-	background: url("../img/marvelBackground.jpg") no-repeat fixed center;;
+	background: url("../img/marvelBackground.jpg") no-repeat fixed center;
 	-webkit-background-size: cover;
 	background-color: #fff;
 		#body {
@@ -147,10 +147,11 @@
 				background-color: #fff;
 				box-shadow: 0px 2px 5px #888888;
 				padding-bottom: 30%;
-				margin-top: -124px;
+				margin-top: 0;
 				display: none;											/*dispal none*/
 				h1	{
 					font: italic 600 30px 'Oswald';
+					margin-left: 5%;
 				}
 				h2	{
 					font: italic 600 30px 'Oswald';
@@ -161,6 +162,7 @@
 					width: 25%;
 					height: 60px;
 					float: left;
+					margin-left: 5%;
 					p  {
 						font: 22.5px 'Oswald';
 						margin: 13px 0 0 5px;
