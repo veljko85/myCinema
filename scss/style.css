@@ -55,11 +55,11 @@ body {
           top: 3px !important;
           transform: rotate(-45deg); }
     body #body #nav {
-      width: 80%;
+      width: 0%;
       height: 124px;
       background-color: #fff;
       transform: skew(-45deg);
-      margin-left: -100%;
+      
       margin-top: -5px;
       box-shadow: 5px 5px 18px #888888;
       transition: 1s;
