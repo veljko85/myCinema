@@ -21,10 +21,10 @@ function hamburger() {
 		document.getElementById("thirdLine").classList.add("change2");
 	}
 	
-	if (navWidth == "-20%") {
-		document.getElementById("nav").style.marginLeft = "-100%";
+	if (navWidth == "80%") {
+		document.getElementById("nav").style.marginLeft = "0%";
 	} else	{
-		document.getElementById("nav").style.marginLeft = "-20%";
+		document.getElementById("nav").style.marginLeft = "80%";
 	}
 
 	if (homeSection == "0px") {
