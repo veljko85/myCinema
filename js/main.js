@@ -4,7 +4,7 @@ function hamburger() {
 
 	var line2 = document.getElementById("secondLine").style.display;
 
-	var navWidth = document.getElementById("nav").style.marginLeft;
+	var navWidth = document.getElementById("nav").style.width;
 	
 	var homeSection = document.getElementById("homeSection").style.marginTop;
 	
@@ -22,9 +22,9 @@ function hamburger() {
 	}
 	
 	if (navWidth == "80%") {
-		document.getElementById("nav").style.marginLeft = "0%";
+		document.getElementById("nav").style.width = "0%";
 	} else	{
-		document.getElementById("nav").style.marginLeft = "80%";
+		document.getElementById("nav").style.width = "80%";
 	}
 
 	if (homeSection == "0px") {
