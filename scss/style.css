@@ -59,7 +59,7 @@ body {
       height: 124px;
       background-color: #fff;
       transform: skew(-45deg);
-      
+      overflow-x: hidden;
       margin-top: -5px;
       box-shadow: 5px 5px 18px #888888;
       transition: 1s;
