@@ -86,6 +86,7 @@ function takeSeat(seat){
 				document.getElementById("yourSeats").innerHTML = "You reserved seat number " + clientSeats + ".";
 			}
 			else {
+				clientSeats.sort(function(a, b){return a - b});
 				document.getElementById("yourSeats").innerHTML = "You reserved seats number " + clientSeats.slice(0, -1) + " and " + clientSeats[clientSeats.length - 1] + ".";
 			}
 		}

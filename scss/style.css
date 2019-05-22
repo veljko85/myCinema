@@ -99,6 +99,16 @@ body {
           body #body #homeSection .movie .movInfo p {
             font: 200 12px 'Oswald';
             color: #C0C0C0; }
+          body #body #homeSection .movie .movInfo .buy-tickets {
+            width: 70px;
+            height: 25px;
+            background-color: #00FF00;
+            margin: 0 0 0 0;
+            cursor: pointer; }
+            body #body #homeSection .movie .movInfo .buy-tickets p {
+              color: #fff;
+              font: 600 15px 'Oswald';
+              text-align: center; }
     body #body #content {
       width: 100%;
       margin-top: -124px;
@@ -171,13 +181,20 @@ body {
       margin: -124px 0 60px 0;
       /*dispal none*/ }
       body #body #getTickets h1 {
-        font: italic 600 20px 'Oswald'; }
+        font: italic 600 20px 'Oswald';
+        margin-left: 10px; }
       body #body #getTickets h2 {
         font: italic 600 20px 'Oswald';
         text-align: center; }
+      body #body #getTickets #close-buy-tickets {
+        width: 20px;
+        float: right;
+        margin: -22px 30px 0 0;
+        cursor: pointer; }
       body #body #getTickets .expSeat {
         width: 50%;
-        height: 40px; }
+        height: 40px;
+        margin-left: 10px; }
         body #body #getTickets .expSeat p {
           font: 15px 'Oswald';
           float: left;
@@ -400,6 +417,11 @@ body {
         body #body #getTickets h2 {
           font: italic 600 30px 'Oswald';
           margin-top: 80px; }
+        body #body #getTickets #close-buy-tickets {
+          width: 30px;
+          float: right;
+          margin: -40px 30px 0 0;
+          cursor: pointer; }
         body #body #getTickets .expSeat {
           width: 25%;
           height: 60px;

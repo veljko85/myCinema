@@ -20,9 +20,13 @@ if (document.body.clientWidth < 990) {
 	        	return(false);
 	});
 }
-		$(".movie").click(function(){
+		$(".buy-tickets").click(function(){
 			$(".movie").hide();
-			$(this).show();
+			$(this).parent().parent().show();
 			$("#getTickets").show();
+		});
+		$("#close-buy-tickets").click(function(){
+			$("#getTickets").hide();
+			$(".movie").show();
 		});
 });

@@ -102,6 +102,11 @@
         body #body #getTickets h2 {
           font: italic 600 30px 'Oswald';
           margin-top: 80px; }
+        body #body #getTickets #close-buy-tickets {
+          width: 30px;
+          float: right;
+          margin: -40px 30px 0 0;
+          cursor: pointer; }
         body #body #getTickets .expSeat {
           width: 25%;
           height: 60px;
